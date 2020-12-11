@@ -22,11 +22,11 @@ public class Main {
                 groups.add(new ArrayList<>());
             } else {
                 // else add line to last group
-                System.out.println("adding " + line + " to the " + (groups.size() - 1) + " group");
+                // System.out.println("adding " + line + " to the " + (groups.size() - 1) + " group");
                 groups.get(groups.size() - 1).add(line);
             }
         }
-        System.out.println(groups);
+        // System.out.println(groups);
 
         // SOLVE
         int PT1 = 0;
